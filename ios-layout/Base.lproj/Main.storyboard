@@ -18,13 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue6-xN-9cK">
-                                <rect key="frame" x="20" y="28" width="22" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSE-Bg-7Vb">
-                                <rect key="frame" x="557" y="28" width="23" height="21"/>
+                                <rect key="frame" x="20" y="20" width="22" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,6 +47,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSE-Bg-7Vb">
+                                <rect key="frame" x="557" y="20" width="23" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -65,7 +65,7 @@
                             <constraint firstItem="eXy-Dd-soQ" firstAttribute="baseline" secondItem="XSH-u4-BR4" secondAttribute="baseline" id="XeR-Xh-SXT"/>
                             <constraint firstAttribute="bottom" secondItem="747-TV-Oea" secondAttribute="bottom" constant="20" symbolic="YES" id="arD-za-Yix"/>
                             <constraint firstItem="747-TV-Oea" firstAttribute="baseline" secondItem="oPc-wM-bdX" secondAttribute="baseline" id="eIj-Rm-mjW"/>
-                            <constraint firstItem="ue6-xN-9cK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="rnA-a4-xLr"/>
+                            <constraint firstItem="ue6-xN-9cK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rnA-a4-xLr"/>
                             <constraint firstItem="ue6-xN-9cK" firstAttribute="baseline" secondItem="CSE-Bg-7Vb" secondAttribute="baseline" id="wLB-p7-tPr"/>
                             <constraint firstItem="747-TV-Oea" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zB1-FM-PR5"/>
                         </constraints>
